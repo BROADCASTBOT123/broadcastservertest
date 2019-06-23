@@ -144,7 +144,7 @@ client.on('message', message => {
     if(message.content.includes('discord.gg')){
 		if(!message.channel.guild) return;
         message.delete()
-    return message.reply(`** No Invite Links للاسف ما تقدر تنشر :) ههههههههههايي 😠 ! **`)
+    return message.reply(`** No Invite Links للاسف ما تقدر تنشر :)  😠 ! **`)
     }
 });
 
@@ -330,7 +330,7 @@ client.on("message", message => {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
       .setFooter('© Broadcast Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
-      .addField('شكرا لك لاستخدامك ل اس ال جي بوت', `https://discordapp.com/api/oauth2/authorize?client_id=532101722055639041&permissions=0&scope=bot`)
+      .addField('شكرا لك لاستخدامك برود كاست بوت', `https://discordapp.com/api/oauth2/authorize?client_id=592344072782348302&permissions=8&scope=bot`)
   message.author.send({embed});
 
  }
