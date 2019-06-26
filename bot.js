@@ -202,7 +202,7 @@ message.channel.send(`This avatar For ${user} link : ${user.avatarURL}`);
 });
 
 client.on('ready',  () => {
-    console.log('تم تشغيل :Broadcast  ');
+    console.log('تم تشغيل :xD™  ');
     console.log(`Logged in as * [ " ${client.user.username} " ] servers! [ " ${client.guilds.size} " ]`);
     console.log(`Logged in as * [ " ${client.user.username} " ] Users! [ " ${client.users.size} " ]`);
     console.log(`Logged in as * [ " ${client.user.username} " ] channels! [ " ${client.channels.size} " ]`);
@@ -291,7 +291,7 @@ client.on("message", message => {
  if (message.content === "-help") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Broadcast Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
+      .setFooter('© xD™ Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
       .setFooter('اوامر الادمنيه')
 	  .addField('-bc', `لخاصية البرودكستات`)
       .setFooter('======================================================')
@@ -329,7 +329,7 @@ client.on("message", message => {
  if (message.content === "-invite") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Broadcast Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
+      .setFooter('© xD™ Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')
       .addField('شكرا لك لاستخدامك برود كاست بوت', `https://discordapp.com/api/oauth2/authorize?client_id=592344072782348302&permissions=8&scope=bot`)
   message.author.send({embed});
 
@@ -373,7 +373,7 @@ client.on("message", message => {
  if (message.content === "-support") {
   const embed = new Discord.RichEmbed()
       .setColor("RANDOM")
-      .setFooter('© Broadcast Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')  
+      .setFooter('© xD™ Bot:heart: جميع الحقوق محفوظة 2019 لــبوت')  
   message.author.send({embed});
 
  }
@@ -453,7 +453,7 @@ client.on('message', message => {
  
   .setColor("#FF0000")
   .addField('``سرعة أتصال الــبوت`` ' , `${Date.now() - message.createdTimestamp}` + ' ms`')
-                 .setFooter(` Broadcast Bot
+                 .setFooter(` xD™ Bot
  .`, 'https://b.top4top.net/p_6021qh431.jpg')
 
   message.channel.sendEmbed(embed);
@@ -648,7 +648,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers `);
     console.log(`---------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-  client.user.setGame(`سيرفر لبيع البوتات بأرخص الأسعار`,"http://twitch.tv/y04zgamer")
+  client.user.setGame(`xD Server`,"http://twitch.tv/y04zgamer")
    client.user.setStatus("dnd")
 });
 
@@ -841,7 +841,7 @@ if (command == "غرد") {
     .setColor('RANDOM')
     .setAuthor(msg.author.username, msg.author.avatarURL)
     .setDescription(args.join(" "))
-    .setFooter('© . :BroadCast || Copyright')
+    .setFooter('© . :xD™ || Copyright')
     msg.channel.sendEmbed(embed);
     msg.delete();
   }
@@ -935,7 +935,7 @@ client.on("message", message => {
         color: 0x06DF00,
         description: "تم مسح الرسائل بنجاح",
         footer: {
-          text: "© Broadcast Bot ™."
+          text: "© xD™ Bot ™."
         }
       }}).then(msg => {msg.delete(3000)});
                           }
